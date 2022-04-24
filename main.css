@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+
+body {
+	background-color: white;
+	/*margin: 0;
+	color: #333;*/
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    max-height: 10000px;
+    margin: 0 auto;
+}
+
+.header {
+	background-color: black;
+	width: 100%;
+	/*padding-top: 20px;*/
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	box-shadow: 0 6px 10px -4px rgb(0 0 0 / 15%);
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*vertical-align: center;*/
+}
+
+.header__logo {
+	font-size: 30px;
+	font-weight: 500;
+	font-family: My Soul;
+	color: #fff;
+}
+
